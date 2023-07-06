@@ -6,19 +6,7 @@
   <body>
     <!-- Paste the embed code from the hosting platform here -->
     <div class="model-embed">
-        <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/QDy7S"></iframe>
+      <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/QDy7S+spin+load"></iframe>
     </div>
-
-    <input type="range" min="0" max="360" value="0" step="1" id="rotationSlider" />
-    
-    <script>
-      const slider = document.getElementById("rotationSlider");
-      const modelEmbed = document.querySelector(".model-embed");
-
-      slider.addEventListener("input", () => {
-        const rotationY = slider.value;
-        modelEmbed.style.transform = `rotateY(${rotationY}deg)`;
-      });
-    </script>
   </body>
 </html>
